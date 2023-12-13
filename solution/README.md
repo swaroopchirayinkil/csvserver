@@ -66,8 +66,10 @@ CONTAINER ID   IMAGE                    COMMAND                  CREATED        
 
 
 [root@91cf3d41e5de csvserver]#docker exec -it 91cf3d41e5de /bin/bash
+
 [root@91cf3d41e5de csvserver]# 
 [root@91cf3d41e5de csvserver]# netstat -tulpn | grep LISTEN
+
 tcp6       0      0 :::9300                 :::*                    LISTEN      1/csvserver 
 
 
